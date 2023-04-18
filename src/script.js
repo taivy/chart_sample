@@ -37,12 +37,14 @@ import Chart from 'chart.js/auto'
             type: 'linear',
             position: 'bottom',
             beginAtZero: true,
+            max: 3800,
             ticks: {
                 stepSize: 200
             },
           },
           y: {
             beginAtZero: true,
+            max: 240,
             ticks: {
                 stepSize: 20
             },
